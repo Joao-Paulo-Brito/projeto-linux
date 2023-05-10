@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'robot';
+    src: url('Robot9000Italic-YzxE8.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('img/Tech2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo01{
+    text-align: center;
+    padding: 20px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #00FFCA, #05BFDB, #088395, #0A4D68);
+    color: white;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+}
+
+#menu li{
+    padding: 10px;
+}
+
+#menu li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    transition-duration: 0.5s; /*Transição de entrada e saída*/
+}
+
+#menu li a:hover{
+    background-color: #0A4D68;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.titulo02{
+    padding-bottom: 10px;
+    font-family: 'robot';
+    color: #088395;
+}
+
+.titulo03{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'robot';
+    color: #088395;
+    background-image: linear-gradient(to right, #88F2EF, transparent);
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    min-width: 320px;
+    max-width: 900px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+
+main > p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 40px;
+}
+
+picture{
+    padding-left: 70px;
+    width: 100%;
+}
+
+.video{
+    background-color: #088395;
+    margin: 0px -15px;
+    padding: 20px;
+    padding-bottom: 56%;
+    position: relative;
+}
+
+.video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.titulo04{
+    margin-top: 10px;
+    color: white;
+    background-color: #05BFDB;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.lista{
+    background-color: #00FFCA;
+    padding: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    min-height: 270px;
+    max-height: 250px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.lista li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.lista a{
+    text-decoration: underline;
+    color: black;
+    transition-duration: 0.7s;
+}
+
+.lista a:hover{
+    color: #00FFCA;
+    background-color: #0A4D68;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    min-width: 320px;
+    max-width: 900px;
+    margin: 10px auto;
+}
